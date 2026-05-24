@@ -6,7 +6,6 @@ Se eu colocasse blueKills e redDeaths juntos, o modelo teria uma precisão artif
 coisa (cada abate do azul é uma morte do vermelho). Isso é considerado um erro de "Data Leakage" (Vazamento de Dados) em ciência de dados.
 
 Foi necessário ajustar o Pandas para a versão 2.x para garantir a estabilidade do ambiente de visualização (Streamlit/Seaborn).
-
 Eliminei partidas com dados "poluídos" (como spam de wards), o que torna o aprendizado do modelo mais focado em comportamentos reais de jogo.
 
 Binarizar as variáveis (blueGoldLead) permitiu que a Árvore de Decisão focasse no estado estratégico do jogo, tornando o modelo menos sensível a 
