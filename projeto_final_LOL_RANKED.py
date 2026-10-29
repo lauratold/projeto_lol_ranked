@@ -16,7 +16,7 @@ from sklearn.metrics import (
 
 # Carregamento de Dados
 
-df = pd.read_csv('aloalo')
+df = pd.read_csv('Base_LOL_RANKED_WIN.csv')
 
 print(df.head())
 
